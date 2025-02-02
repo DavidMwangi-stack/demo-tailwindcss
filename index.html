@@ -3,23 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/style.css">
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
     <title>Tailwind css</title>
 </head>
 <body>
+   
 
-
-    <div class="container min-h-screen bg-[url('assets/images/image.png')]">
-        <nav>
-            <ul>
-            <img src="assets/images/logo.png" alt="">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">Contact</a></li>
+    <div class=" h-screen bg-cover bg-center bg-[url('assets/images/bg1.jpg')] px-28 py-6 relative">
+        <nav class="flex items-center">
+            <img src="assets/images/restaurant-icon-png-8.jpg" alt="" class="w-8 cursor-pointer">
+            <p class="text-white px-1 cursor-pointer font-extrabold text-2xl">Fast Feast</p>
+            <ul class="flex-1 text-center">
+            <li class="list-none inline-block px-4 "><a href="#" class="no-underline font-semibold text-white px-2">Home</a></li>
+            <li class="list-none inline-block px-4 "><a href="#" class="no-underline font-semibold text-white px-2">About</a></li>
+            <li class="list-none inline-block px-4 "><a href="#" class="no-underline font-semibold text-white px-2">Features</a></li>
+            <li class="list-none inline-block px-4"><a href="#" class="no-underline font-semibold text-white px-2">Contact</a></li>
          </ul>
-         <img src="assets/images/cart.png" alt="">
+         <img src="assets/images/cart.png" alt="" class="w-8 cursor-pointer">
         </nav>
+
+        <div class="text-white mt-24 max-w-xl">
+            <h1 class="text-6xl font-semibold leading-normal">Meals on wheels, <br>delivery under <span class="font-light">20min</span></h1>
+            <p class="prata-regular ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur esse veritatis sunt error suscipit voluptas itaque nihil voluptatem quaerat laudantium, labore ducimus aperiam deserunt sed culpa cupiditate consequatur velit cumque!</p>
+        <div class="mt-10">
+            <a href="#" class="bg-orange-500 rounded-3xl py-3 px-8 font-medium inline-block mr-4 hover:bg-sky-700 hover:border-black hover:text-white duration-300 hover:border border-transparent">Order Now</a>
+            <a href="#">Download App <span class="text-2xl inline-block">&#10148;</span></a>
+        </div>
+        </div>
+        <div>
+            <img src="assets/images/grocery-image.png" alt="" class="w-full xl:w-1/2 xl:absolute bottom-0 right-10 ">
+        </div>
     </div>
 
     
